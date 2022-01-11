@@ -1,0 +1,63 @@
+#result{
+  display: none;
+  background-color: papayawhip;
+  width: 80%;
+  text-align: center;
+  border-radius: 20px;
+}
+ #shareResult{
+   background-color: papayawhip;
+   width: 80%;
+   text-align: center;
+   border-radius: 20px;
+ }
+
+ #boox{
+   background-color: rgba(228,176,85,0.2);
+   border-radius: 20px;
+   border: 0px;
+   border-style: dashed;
+   padding: 20px;
+ }
+
+.resultname{
+  font-size: 24px;
+}
+
+.resultnamer{
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.resultDesc{
+  padding-top: 20px;
+  border-top: 2px solid black;
+  font-size: 18px;
+}
+
+
+.kakao{
+  color: white;
+  background-color: #FEE500;
+  font-size: 20px;
+  border: 0px;
+  border-radius: 20px;
+}
+
+.kakao:hover, .kakao:focus{
+  background-color: papayawhip;
+  color:  #FEE500;
+}
+
+.gohome{
+  color: white;
+  background-color: orangered;
+  font-size: 20px;
+  border: 0px;
+  border-radius: 20px;
+}
+
+.gohome:hover, .kakao:focus{
+  background-color: papayawhip;
+  color: orangered;
+}

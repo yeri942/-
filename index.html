@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ko" >
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="ganziYeri">
+    <meta name="keywords" content="나는 무슨 떡볶이? 연애 유형 테스트">
+    <meta name="description" content="나는 무슨 떡볶이? 연애 유형 테스트">
+
+    <!--sns share-->
+    <meta property="og:url" content="https://ilovetteokbokki.netlify.app" />
+    <meta property="og:title" content="나는 무슨 떡볶이? 연애 유형 테스트" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="../img/share.png" />
+    <meta property="og:description" content="나는 무슨 떡볶이? 연애 유형 테스트" />
+
+    <!--favicon-->
+    <link rel="shortcut icon" href="../img/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" href="../img/favicon.ico" />
+
+    <title>나는 무슨 떡볶이? 연애 유형 테스트</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Stylish&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/default.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/qna.css">
+    <link rel="stylesheet" href="./css/animation.css">
+    <link rel="stylesheet" href="./css/result.css">
+    <script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
+    <script>
+      Kakao.init('ae8c23bb99a54e950f887614c6394642');
+      Kakao.isInitialized();
+    </script>
+  </head>
+
+  <body>
+    <div class="container">
+      <section id="main" class="mx-auto my-5 py-5 px-3">
+        <h2 class="pt-5">나는 무슨 떡볶이? 연애 유형 테스트</h2>
+        <div class="col-lg-6 col-md-8 col-sm-10 col-12 mx-auto">
+          <img src="./img/main.png" class="img-fluid py-5" alt="mainImage">
+        </div>
+        <p>
+          나의 연애유형을 닮은 떡볶이는 무엇일까요? <br>
+          아래 시작하기 버튼을 눌러 알아보아요!
+        </p>
+        <button type="button" class="btn btn-danger mt-3" onclick="js:begin()">
+          시작하기
+        </button>
+      </section>
+      <section id="qna">
+        <div class="status mx-auto mt-5">
+          <div class="statusBar">
+          </div>
+        </div>
+          <div class="qBox my-5 py-3 mx-auto">
+           </div>
+           <div class="answerBox">
+           </div>
+      </section>
+      <section id="result" class="mx-auto my-5 py-5 px-3">
+        <h2>당신의 결과는?</h2>
+      <div id="boox">
+        <div class="resultname">
+
+        </div>
+        <div class="resultnamer">
+
+        </div>
+        <div id="resultImg"class="my-3 col-lg-6 col-md-8 col-sm-10 col-12 mx-auto">
+
+        </div>
+        <div class="resultDesc">
+
+        </div>
+      </div>
+        <button type="button" class="kakao mt-3 py-2 px-3" onclick="js:setShare()">
+          공유하기
+        </button>
+      </section>
+      <script src="./js/data.js" charset="utf-8">
+      </script>
+      <script src="./js/start.js" charset="utf-8">
+      </script>
+      <script src="./js/share.js" charset="utf-8">
+      </script>
+  </div>
+  </body>
+</html>
